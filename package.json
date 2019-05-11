@@ -1,6 +1,6 @@
 {
   "name": "wzx-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./bin/wzx.js",
   "bin": {
@@ -9,9 +9,16 @@
   "scripts": {
     "start": "node ./bin/wzx"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wzx365/wzx-cli.git"
+  },
+  "keywords": ["wzx", "wzx-cli", "cli"],
+  "author": {
+    "name": "wzx365",
+    "email": "wzx365@126.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "@darkobits/lolcatjs": "^3.1.2",
     "chalk": "^2.4.2",
